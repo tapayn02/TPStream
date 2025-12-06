@@ -1,0 +1,16 @@
+<addons>
+    <addon id="plugin.program.tpstream"
+           name="TPStream Build Installer"
+           version="1.0.0"
+           provider-name="TP">
+
+        <extension point="xbmc.addon.metadata">
+            <summary>TPStream Build Installer</summary>
+            <description>Installs the TPStream custom Kodi build.</description>
+            <platform>all</platform>
+        </extension>
+
+        <extension point="xbmc.python.pluginsource" library="TPStreamBuild.zip" />
+
+    </addon>
+</addons>
